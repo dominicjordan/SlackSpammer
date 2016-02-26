@@ -1,1 +1,1 @@
-setInterval(function(){document.getElementById("message-input").innerHTML="Message";TS.view.submit();},500);
+setInterval(function(){document.getElementById("message-input").value="Message";TS.view.submit();},500);
