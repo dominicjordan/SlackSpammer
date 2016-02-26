@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Slack spammer",
+  "description": "Spam the name",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "spam.html"
+  },
+   "icons": { 
+            "48":"icon.png"
+        }, 
+  "permissions": [
+   "activeTab"
+   ]
+}
